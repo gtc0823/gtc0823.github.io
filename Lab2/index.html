@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		body {background-color: lightyellow;}
+		h1 {color: blue;}
+		p {font-size: large;
+		   font-weight: 600;}
+	</style>
+</head>
+<body>
+	<h1>New HTML5 Input Types Demo</h1>
+	<p>This form demonstrates the new HTML5 input types and the place holder,required and qutofocus attributes.</p>
+	<form>
+	<p>	
+		<label class="changeColor">Color:
+		<input type="Color" autofocus>
+		(Hexadecimal code such as #ADD8E6)
+	</label>
+	</p>
+	<p>
+		<label>Birthday:
+			<input type="date" id="birthday" name="birthday">
+		</label>
+	</p>
+	<p>
+		<label id="email">Email:
+			<input type="email" name="email" placeholder="name@domain.com">
+			(name@domain.com)
+		</label>
+	</p>
+	<p>
+		<label>Number:0
+			<input type="number" id="quantity" name="quantity" min="0" max="7">
+			(Enter a number between 0 and 7)
+		</label>
+	</p>
+	<p>
+		<label>Range:0
+			<input type="range" min="0" max="20">
+			20
+		</label>
+	</p>
+	<p>
+		<label>Search:
+			<input type="search" placeholder="search query">
+		</label>
+	</p>
+	<p>
+		<label class="extra">Time:
+			<input type="time">
+		</label>
+	</p>
+	<p>
+		<input type="submit" value="Submit">
+		<input type="reset" value="Clear">
+	</p>
+
+	</form>
+	<a href="Lab2.html">Link to second page.</a>
+</body>
+</html>

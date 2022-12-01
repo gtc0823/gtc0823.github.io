@@ -1,0 +1,14 @@
+div{
+	float: left;
+	font-family:monospace;
+}
+body{
+	background-color: lightcyan;
+}
+.input{
+	margin-left: 3%;
+}
+span{
+	 vertical-align:top
+	 
+}

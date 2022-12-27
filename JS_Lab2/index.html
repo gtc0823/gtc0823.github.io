@@ -63,18 +63,25 @@
 		}
 		function rollDice()
 		{
-   			for (var i = 1;i<=12;i++){
-   				var face = Math.floor(1+Math.random()*6);
-   				setImage(document.getElementById("die"+i),face);
-   				tallyRolls(face);
-   				totalDice++;
-   			}
+   				setImage(die1Image);
+   				setImage(die2Image);
+   				setImage(die3Image);
+   				setImage(die4Image);
+   				setImage(die5Image);
+   				setImage(die6Image);
+   				setImage(die7Image);
+   				setImage(die8Image);
+   				setImage(die9Image);
+   				setImage(die10Image);
+   				setImage(die11Image);
+   				setImage(die12Image);
+
    				updateFrequencyTable();
    			
 		}
 		function setImage(dieimage,face)
 		{
-			
+			var face = Math.floor(1+Math.random()*6);
 			dieimage.setAttribute("src","die" + face + ".png");
 			dieimage.setAttribute("alt","die image with" + face + "spot(s)");
 			
